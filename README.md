@@ -1,1 +1,1 @@
-# Nuh-zy.github.io
+# nuh-zy.github.io
