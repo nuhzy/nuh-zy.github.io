@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.footer {
+  background-color: #EF3BFF; /* Set the background color */
+  padding:  20px;         /* Add padding to give some space inside the navbar */
+  display: flex;              /* Use flexbox to align the content horizontally */
+  align-items: center;
+  justify-content:center;
+  margin-top:100px;        /* Vertically center the content */}
+
+.margin {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+.navbar {
+  background-color: #EF3BFF; /* Set the background color */
+  padding:  20px;         /* Add padding to give some space inside the navbar */
+  display: flex;              /* Use flexbox to align the content horizontally */
+  justify-content: space-between; /* Space out the links evenly */
+  align-items: center;        /* Vertically center the content */
+}
+
+.navbar a {
+  color: black;               /* Set text color to white */
+  text-decoration: none;      /* Remove underlines from links */
+           /* Add padding to the links */
+  font-size: 24px;            /* Set font size for links */
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Add a subtle hover effect */
+  border-radius: 5px;         /* Add rounded corners to the hover effect */
+}
+
+
+.links {
+  display: flex;               /* Use flexbox to arrange the links horizontally */
+  gap: 20px;                   /* Space of 20px between each link */
+}
+
+/* General Body Styling */
+body {
+  font-family: 'Belgrano', sans-serif;  /* Apply the Belgrano font */
+  font-size: 20px;                      /* Body text size */
+  line-height: auto;                    /* Auto line height */
+  color: black;                         /* Text color for body */
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading 1 Styling */
+h1 {
+  font-size: 100px;                     /* Font size for H1 */
+  color: black;                         /* H1 text color */
+  margin: 0;
+}
+
+/* Heading 2 Styling */
+h2 {
+  font-size: 40px;                      /* Font size for H2 */
+  line-height: 50px;                    /* Line height for H2 */
+  color: #F24822;                       /* H2 text color */
+  text-transform: uppercase;            /* Make H2 text uppercase */
+  margin: 0;
+}
+
+h3 {
+  font-size: 40px;                      /* Font size for H2 */
+  line-height: 50px;                    /* Line height for H2 */
+  color: #F24822;                       /* H2 text color */
+  text-transform: uppercase;            /* Make H2 text uppercase */
+  margin: 0;
+}
+/* Styling for <strong> tag */
+strong {
+  color: #ff6a3b;                       /* Text color for strong tag */
+  font-weight: normal;                  /* Set the text weight to regular */
+}
